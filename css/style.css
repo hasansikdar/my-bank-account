@@ -1,0 +1,162 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    transition:all .2s linear;
+    font-family:arial;
+}
+body {
+    background:#ECF9FF;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    height:100vh;
+}
+#main-section {
+    width:320px;
+    margin:auto;
+    background:white;
+    padding:30px 20px;
+    text-align:center;
+    text-transform:capitalize;
+    border-radius:10px;
+    box-shadow:0 0 20px;
+}
+#main-section .container {
+    width:90%;
+    margin:auto;
+}
+#main-section h2 {
+    margin-bottom:40px;
+}
+#main-section .container input,
+#main-section button {
+    display:block;
+    width:100%;
+    padding:10px;
+    border:0;
+    border-radius:2px;
+    box-shadow:0 0 2px;
+}
+#main-section button {
+    font-size:1rem;
+    text-transform:capitalize;
+    background:#4F71CB;
+    border:none;
+    color:white;
+    margin-top:20px;
+    cursor:pointer;
+}
+.forget-password {
+    margin-top:20px;
+}
+.forget-password a {
+    text-decoration:none;
+    font-size:14px;
+    margin:3px 0;
+    display:inline-block;
+}
+
+/*=================================
+account page 
+===========================================*/
+#account-body {
+    height:auto;
+    padding:50px 20px;
+}
+header {
+    text-align:center;
+    width:100%;
+    margin-bottom:50px;
+}
+header h1 {
+    font-size:48px;
+    text-transform:capitalize;
+    color:blue;
+}
+.deposit {
+    background-color:chartreuse !important
+}
+.withdraw {
+    background-color:orange !important
+}
+.balance {
+    background-color:blueviolet !important
+}
+.deposit-add {
+    background-color:darkseagreen !important
+}
+.card {
+    background:#4F71CB;
+    color:white;
+    padding:20px;
+    width:100%;
+    margin:10px 10px;
+    border-radius:10px;
+}
+.card h3 {
+    text-transform:capitalize;
+    margin-bottom:10px;
+}
+.card h2 {
+    font-size:3rem;
+}
+.card input {
+    display:block;
+    padding:10px;
+    width:100%;
+    font-size:14px;
+    border-radius:5px;
+    border:none;
+}
+.card button {
+    background:orangered;
+    border:none;
+    outline:none;
+    padding:10px 20px;
+    font-size:18px;
+    margin-top:10px;
+    color:white;
+    border-radius:5px;
+    cursor:pointer;
+}
+.card button:hover {
+    background-color:aqua;
+    color:black;
+}
+.money-section {
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:50px 0;
+}
+.main-section {
+    width:70vw;
+    margin:auto;
+}
+.money-adding {
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+}
+
+
+
+
+@media all and (max-width:768px) {
+    .main-section {
+        width:90vw;
+        
+    }
+}
+@media all and (max-width:512px) {
+    .money-section {
+        flex-flow:column;
+    }
+    .money-adding  {
+        flex-flow:column;
+    }
+    header h1 {
+        font-size:32px;
+    }
+}
