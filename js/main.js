@@ -13,7 +13,7 @@ document.getElementById("signup-button").addEventListener("click", function(even
     password.value = "";
     // step 3 get varify email and password
     if(emailvalue === "bankaccount@gmail.com" && passwordvalue === "secret"){
-        document.location.href = "http://127.0.0.1:5500/account/account.html";
+        document.location.href = "account/account.html";
 
     }
     else {
